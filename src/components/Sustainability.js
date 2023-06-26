@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css"
-import Fade from 'react-reveal/Fade';
+
 
 function Sustainability() {
 
@@ -62,12 +62,12 @@ function Sustainability() {
               </Right>
             </Image>
             <Description>
-              <Fade bottom>
+
               <p>Our commitment to utilizing the world's highest technology sets us apart in the industry. With advanced production planning systems, we ensure optimal efficiency and precision throughout the manufacturing process. This technology-driven approach allows us to streamline operations and deliver consistent, high-quality results for our valued customers.</p>
               <p>Safety is of paramount importance to us, which is why we exclusively source the best and safest chemicals available worldwide. Through rigorous evaluation and adherence to our Chemical Management System, we guarantee the accuracy, safety, and quality of chemical usage, prioritizing the well-being of our employees, customers, and the environment.</p>
               <p>Embracing automation and computerization, our manufacturing process is seamlessly integrated with over 50 computerized machines and 50 individual computers. This state-of-the-art infrastructure ensures a level of accuracy and reliability that minimizes errors and omissions, leading to superior product outcomes and customer satisfaction.</p>
               <p>With our technologically advanced systems, commitment to safety, and full automation, you can trust us to deliver products of exceptional quality, reliability, and precision. Experience the benefits of our cutting-edge approach and the peace of mind that comes with working with a company at the forefront of technology-driven manufacturing.</p>
-              </Fade>
+
             </Description>
            </Slot>
 
@@ -104,13 +104,13 @@ function Sustainability() {
               
             </Image>
             <Description>
-              <Fade bottom>
+
               <p>Our commitment to the well-being of our employees is ingrained in our organizational environment. We prioritize the mental and physical satisfaction of our team members, fostering a supportive and inclusive workplace that promotes their overall happiness and fulfillment. By prioritizing employee satisfaction, we cultivate a positive work culture that drives productivity and innovation.</p>
               <p>As a fully eco-friendly region, we take our environmental responsibilities seriously. Our adherence to national standards and international conventions is a testament to our dedication to sustainability. We have obtained membership and actively participate in initiatives that promote environmental stewardship, ensuring that our operations align with the highest global standards.</p>
               <p>At our company, customer safety is paramount. We go above and beyond to provide a safe and secure environment for our customers and their products. Our stringent safety protocols and quality assurance measures guarantee that our customers' trust is well-placed, allowing them to have complete peace of mind when working with us.</p>
               <p>Our commitment to environmentally friendly practices has been recognized internationally through prestigious awards. We have received accolades for our exemplary energy management and waste management practices, reinforcing our position as a leader in sustainable operations. These awards underscore our ongoing efforts to minimize our environmental impact and drive positive change within our industry.</p>
               <p>Choose us as your trusted partner, and experience the benefits of an organization that prioritizes employee satisfaction, customer safety, and environmental excellence. Our track record of success and commitment to sustainable practices make us the ideal choice for your needs.</p>
-              </Fade>
+
             </Description>
            </Slot>
             
