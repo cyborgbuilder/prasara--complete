@@ -6,8 +6,22 @@ function Certify() {
     <Container>
       <Wrap>
         <Left>
-            <h1>certified washing plant services</h1>
-            <p>Experience peace of mind with our certified washing plant services. We are proud to be an accredited provider, committed to upholding the highest industry standards. With our services, you can rest assured that your operations will receive exceptional quality, efficiency, and environmental compliance. Our team is dedicated to delivering top-notch results, utilizing state-of-the-art equipment and expert knowledge to ensure the utmost satisfaction. Whether you require thorough cleaning, maintenance, or repairs, our washing plant services are designed to meet your specific needs. Trust us to handle your operations with the utmost care and professionalism, providing you with the peace of mind you deserve.</p>
+            <h1>ACCREDITATIONS AND
+CERTIFICATIONS</h1>
+            <p>Experience a peace of mind through our
+certified washing plant services. We are an
+accredited service provider with global
+accolades and are committed to upholding the
+highest industry standards. We assure overall
+exceptional quality in the delivery of our results, utilizing state-of-the-art equipment and
+expert knowledge to ensure the utmost
+satisfaction. Whether you require thorough
+cleaning, maintenance, or repairs, our washing
+plant services are designed to meet your
+specific needs. Trust us to handle your
+operations with the utmost care and
+professionalism, providing you with the peace
+of mind you deserve.</p>
         </Left>
         <Right>
         <Slot>

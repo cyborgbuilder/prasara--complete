@@ -12,7 +12,8 @@ function Slogan() {
         <div>
             <img src='./comma.png' />
             <Year>2000</Year>
-            <p>"We have more than 20 years of experience in the textile washing field.”</p>
+            <p>"“We have 30+ years of experience in the
+Apparel industry”</p>
             <img src='./comma.png' />
         </div>
       </Wrap>

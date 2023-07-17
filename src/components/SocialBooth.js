@@ -3,11 +3,13 @@ import styled from 'styled-components'
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
+import { FaInstagram } from "react-icons/fa";
 function SocialBooth() {
   return (
     <Container>
       <FaFacebook className='icons' />
       <FaYoutube className='icons' />
+      <FaInstagram className='icons' />
     </Container>
   )
 }

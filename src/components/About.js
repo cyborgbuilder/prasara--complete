@@ -12,12 +12,18 @@ function About() {
         <Wrap>
            <Header>
            <h1>About</h1>
-            <p>Since its establishment in 1998 as Prasara Washing Plant (pvt) Ltd., our company has consistently grown and evolved, solidifying its position as the leading washing plant in the textile sector. Under the visionary leadership of Dhammika Hapuarachchige, we have expanded our operations day by day, earning the trust and loyalty of our valued customers. As a testament to our success, we have achieved numerous accolades and certifications that reflect our commitment to excellence.</p>
-            <p>In line with our continuous pursuit of growth and improvement, we are proud to announce our expansion under the new name Prasara Washing Dankotuwa (pvt) Ltd. This rebranding signifies our readiness to embrace new opportunities and challenges while remaining true to our core values. Our primary objective is to deliver reliable and high-quality services to our clients, leveraging the latest technologies and industry advancements.</p>
-            <p>At Prasara Washing Dankotuwa, we are driven by a passion for customer satisfaction and a dedication to staying at the forefront of the textile industry. Our team is constantly striving to provide innovative solutions and enhance our processes to exceed expectations. With a focus on reliability, quality, and a customer-centric approach, we are poised to continue our remarkable journey of success while upholding the values that have guided us since our inception.</p>
-            <p>Choose Prasara Washing Dankotuwa for your textile washing needs and experience our unwavering commitment to excellence, cutting-edge technology, and a customer-centric approach that sets us apart in the industry.</p>
+            <p>Established in 1998, Prasara Washing Plant
+(PVT) LTD has persistently developed and
+emerged as one of the leading washing plants
+in the industry consolidating its status.
+We have expanded our operations over the
+years, acquired the trust and loyalty of our
+valued customers. As a testament to our
+success, we have achieved numerous accolades
+that reflect our commitment to excellence.</p>
+           
            </Header>
-            <Slot>
+            {/* <Slot>
               <div>
                 <h1>Vision</h1>
                 <p>To be the most recognised premier organisation
@@ -30,13 +36,13 @@ function About() {
             <Image_Two>
             <img src='https://ik.imagekit.io/y5xyemmwee7/assets/images/v4/sqr-dots-white.webp' />
             </Image_Two>
-            </Slot>
+            </Slot> */}
             
 
 
              
                 
-                <Slot>
+                {/* <Slot>
                 <Images>
             <img src='https://ik.imagekit.io/y5xyemmwee7/assets/images/v4/bg-circle-white.webp' />
             </Images>
@@ -52,7 +58,7 @@ To become a Green Washing Plant that practices
 Globally Recognised Environmental Standards.
 </p>
              
-                </Slot>
+                </Slot> */}
                 
         </Wrap>
       </Body>

@@ -10,7 +10,18 @@ function Feedback() {
        
         <Right>
             <h1>About Us</h1>
-            <p>Since its establishment in 1998 as Prasara Washing Plant (pvt) Ltd., our company has consistently grown and evolved, solidifying its position as the leading washing plant in the textile sector. Under the visionary leadership of Dhammika Hapuarachchige, we have expanded our operations day by day, earning the trust and loyalty of our valued customers. As a testament to our success, we have achieved numerous accolades and certifications that reflect our commitment to excellence.</p>
+            <p>Since its inception, Prasara Washing Plant
+(PVT) LTD has consistently progressed and
+evolved, establishing its position as a leading
+washing plant in the Apparel Sector.
+As a testament to our success, we have been
+accredited with various ISO standards and
+credited with numerous industry excellence
+awards. Moreover, we have secured many
+globally recognised certificates by strictly
+adhering to environmental and social
+platforms throughout the supply chain
+process.</p>
             <Link to='/about'><button className="button-90" href="/Contact">Read More</button></Link>
             <Image>
             <img src='https://ik.imagekit.io/y5xyemmwee7/assets/images/v4/bg-circle-white.webp' />

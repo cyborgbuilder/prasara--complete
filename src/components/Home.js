@@ -21,13 +21,12 @@ function Home() {
       <FaceAbout />
       
       <Slogan />
+      <Certify />
       
-      {/* <Certificate /> */}
-      {/* <Certi /> */}
       
       <FaceContact />
-      <Certify />
-      <FaceSustainability />
+      
+      {/* <FaceSustainability /> */}
       
 
       

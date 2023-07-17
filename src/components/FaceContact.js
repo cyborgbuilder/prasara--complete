@@ -7,7 +7,12 @@ function Feedback() {
       <Wrap>
         <Left>
             <h1>Connect with Us</h1>
-            <p>We value your engagement and would love to hear from you. Whether you have questions, feedback, or would simply like to explore potential collaborations, we invite you to connect with us. Our team of experts is ready to assist you and provide the information you need.</p>
+            <p>We value your engagement and would love to
+hear from you. Thus, inquiries, feedback, or
+requests of exploring potential collaborations
+are quite welcome. Our team of experts is
+ready to assist you and provide the
+information you need.</p>
             <button className="button-89" >Contact us</button>
         </Left>
         <Right>
@@ -54,6 +59,7 @@ const Left = styled.div`
     p{
         line-height: 1.8rem;
         padding: 10px 0;
+        margin-bottom: 20px;
     }
     // button {
     //     flex: 1 1 auto;

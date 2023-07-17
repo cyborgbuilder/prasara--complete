@@ -33,10 +33,11 @@ function Navbar() {
 			<nav ref={navRef}>
 				
 				<Link to='/'><a >Home</a></Link>
+				<Link to='/brands'><a >Brands</a></Link>
 				<Link to='/about'><a >About Us</a></Link>		
 				<Link to='/sustainability'><a >Sustainability</a></Link>
 				{/* <Link to='/production'><a>Productions</a></Link> */}
-				<Link to='/career'><a >Careers</a></Link>
+				
 				<Link to='/contact'><button className="button-89" href="/Contact">Contact Us</button></Link>
 				<button
 					className="nav-btn nav-close-btn"

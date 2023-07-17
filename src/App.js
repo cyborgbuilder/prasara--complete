@@ -10,6 +10,7 @@ import Production from './components/Production';
 import Sustainability from './components/Sustainability';
 import Footer from './components/Footer';
 import SocialBooth from './components/SocialBooth';
+import Brands from './components/Brands'
 function App() {
   // let component
    // eslint-disable-next-line default-case
@@ -41,7 +42,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/career' element={<Careers />} />
+          <Route path='/brands' element={<Brands />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/production' element={<Production />} />
           <Route path='/sustainability' element={<Sustainability />} />
