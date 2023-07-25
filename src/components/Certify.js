@@ -25,26 +25,38 @@ of mind you deserve.</p>
         </Left>
         <Right>
         <Slot>
-          <img src='./c1.png' />
+          <img src='./1.png' />
         </Slot>
         <Slot>
-        <img src='./c2.png' />
+        <img src='./2.png' />
         </Slot>
         <Slot>
-        <img src='./c3.png' />
+        <img src='./3.png' />
         </Slot>
         <Slot>
-        <img src='./c4.png' />
+        <img src='./4.png' />
         </Slot>
         <Slot>
-        <img src='./c5.png' />
+        <img src='./5.png' />
         </Slot>
         <Slot>
-        <img src='https://uploads-ssl.webflow.com/5f70b3b7a85b92350dd091ab/5f70b773f2db05216e2a3ef7_Platform-Gateway_smaller.png' />
+        <img src='./6.png' />
         </Slot>
-        {/* <Slot>
-        <img src='./c7.png' />
-        </Slot> */}
+        <Slot>
+        <img src='./7.png' />
+        </Slot>
+        <Slot>
+        <img src='./8.png' />
+        </Slot>
+        <Slot>
+        <img src='./9.png' />
+        </Slot>
+        <Slot>
+        <img src='./10.png' />
+        </Slot>
+        <Slot>
+        <img src='./11.png' />
+        </Slot>
         </Right>
       </Wrap>
     </Container>
