@@ -6,7 +6,7 @@ function About() {
     <Container>
       <Head>
         <div></div>
-        <img src='./about3.jpg' />
+        <img src='./brands.png' />
       </Head>
       <Body>
            <Header>
