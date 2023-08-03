@@ -11,7 +11,7 @@ function About() {
       <Body>
         <Wrap>
            <Header>
-           <h1>About</h1>
+           <h1>About Us</h1>
             <p>Established in 1998, Prasara Washing Plant
 (PVT) LTD has persistently developed and
 emerged as one of the leading washing plants

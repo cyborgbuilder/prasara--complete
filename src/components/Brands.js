@@ -344,7 +344,7 @@ function About() {
 
             <Slot>
                 <Upper>
-                    <img className='logo_34' src='https://assets.stickpng.com/images/584290c7a6515b1e0ad75ac4.png' />
+                    <img className='logo_34' src='https://download.logo.wine/logo/Tesco/Tesco-Logo.wine.png' />
                 </Upper>
                 <Down>
                     <h1>Tesco</h1>

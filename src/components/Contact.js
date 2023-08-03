@@ -1,5 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import {  BsFillTelephoneFill } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
+import { FcHome } from "react-icons/fc";
+import { FcCellPhone } from "react-icons/fc";
+import { FcInvite } from "react-icons/fc";
 function Contact() {
   return (
     <Container>
@@ -12,19 +17,42 @@ function Contact() {
         <Wrap>
            <Header>
            <h1>Contact Us</h1>
-           <h2>Message From The Factory Manager </h2>
-           <p>Inheriting a history of more than 20 years, "Prasara Washing Plant" is moving forward to meet the ever-expanding market's needs and goals. It is my belief that we have protected the trust of our customers and the trust of all the employees who were members of the Prasara family to the best of our ability. My aim is to lead the institute forward by increasing the quality of the products through research studies using new technology. We invite you to keep the trust you have placed in us so far and continue to join hands with us.</p>
            </Header>
+           
+           <Boxes>
+            <Box>
+              <Up>
+                <FcHome className='icons_about'/>
+              </Up>
+              <Down>
+                  <p>Prasara Washing Plant (Pvt) Ltd</p>
+                  <p>Negombo road</p>
+                  <p>Thambarawila</p>
+                  <p>Waikkala</p>
+              </Down>
+            </Box>
 
-           <Detail>
-            <div>
-            <h3>General Communication</h3>
-            <p>Prasara Washing Plant Dankotuwa (Pvt) Ltd</p>
-            <h5>Negombo Road, Thabarawila, Waikkala </h5>
-            <p>Sri Lanka</p>
-            <h4>+(94) 31 4927863 &nbsp; &nbsp; &nbsp; +(94)31 4927864</h4>
-            </div>
-           </Detail>
+            <Box>
+              <Up>
+                <FcCellPhone className='icons_about'/>
+              </Up>
+              <Down>
+              <a href='tel:+94114797000'>< BsFillTelephoneFill className='icons_about_2'  /> <h4>(+94) 11 4797000</h4></a>
+              <a href='tel:+94768287040'>< BsFillTelephoneFill className='icons_about_2' /> <h4>(+94) 76 8287 040</h4></a>
+              <a href='tel:+94768287041'>< BsFillTelephoneFill className='icons_about_2' /> <h4>(+94) 76 8287 041</h4></a>
+              <a href='tel:+94768287042'>< BsFillTelephoneFill className='icons_about_2' /> <h4>(+94) 76 8287 042</h4></a>
+              </Down>
+            </Box>
+
+            <Box>
+              <Up>
+                <FcInvite className='icons_about'/>
+              </Up>
+              <Down>
+              <a href='mailto: dhammikah@prasarawashing.com'>< FiMail className='icons_about_3' /> <h4>dhammikah@prasarawashing.com</h4></a>
+              </Down>
+            </Box>
+           </Boxes>
 
            <Map>
           
@@ -45,6 +73,67 @@ const Container = styled.div`
     width: 100%;
 
 `
+
+const Boxes = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px 0;
+
+
+`
+const Box = styled.div`
+  width: 27%;
+  height: 280px;
+  margin: 0 50px ;
+  
+
+`
+
+const Up = styled.div`
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .icons_about{
+    font-size: 70px;
+  }
+
+
+
+`
+
+const Down = styled.div`
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  p{
+    margin: 5px 0;
+  }
+  a{
+    display: flex;
+    text-decoration: none;
+  }
+  h4{
+    margin: 8px;
+  }
+  .icons_about_2{
+    margin: 6px;
+  }
+
+  .icons_about_3{
+    margin: 8px;
+    font-size: 20px;
+  }
+`
+
+
 
 
 
@@ -155,68 +244,6 @@ const Map = styled.div`
 
 `
 
-const Detail = styled.div`
-  width: 80%;
-  background: #fff;
-  padding: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 80px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  border-radius: 5px;
-
-  @media only screen and (max-width: 1200px){
-    width: 100%;
-    padding: 10px;
-  }
-  
-
-  h3{
-    font-size: 26px;
-    font-weight: normal;
-    margin: 20px 0;
-    color: #011085;
-    letter-spacing: 2.1px;
-
-    @media only screen and (max-width: 1200px){
-      font-size: 22px;
-    }
-  }
-
-  p{
-    font-size: 16px;
-    font-weight: normal;
-
-    letter-spacing: 2.1px;
-  }
-
-  h5{
-    font-size: 23px;
-    font-weight: normal;
-    margin: 12px 0;
-    letter-spacing: 2.1px;
-
-    @media only screen and (max-width: 1200px){
-      font-size: 20px;
-    }
-  }
-
-  h4{
-    font-weight: normal;
-    margin: 20px 0;
-    letter-spacing: 2.1px;
-  }
-  div{
-    width: 98%;
-    border-left: 3px solid #011085;
-    border-right: 3px solid #011085;
-    padding: 0 20px;
-    text-align: center;
-  }
-
-`
 
 
 export default Contact
