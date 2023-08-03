@@ -468,6 +468,7 @@ h1{
 const Detail = styled.div`
     background: #fff;
     padding: 20px;
+    
 
 
     p{
@@ -490,14 +491,15 @@ const Detail = styled.div`
 `
 const Slot = styled.div`
 width: 20%;
-height: 380px;
-padding: 10px 20px;
+height: 350px;
+padding: 7px;
 background: #fff;
-border-radius: 5px;
+border-radius: 8px;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 position: relative;
 margin: 20px;
 transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+
 
 
 &:hover{
@@ -509,10 +511,11 @@ transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 
 
 @media only screen and (max-width: 1200px){
-    width: 100%;
-    padding: 0;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
-    height: 280px;
+    height: 180px;
   }
 
 
@@ -532,7 +535,7 @@ h1{
 
 const Upper = styled.div`
     width: 100%;
-    height: 70%;
+    height: 100%;
     display: flex;
     align-items: center;
     jsutify-content: center;
@@ -702,7 +705,8 @@ const Upper = styled.div`
 `
 
 const Down = styled.div`
-    height: 30%;
+    //height: 30%;
+    display: none;
 
 
     h1{

@@ -10,18 +10,7 @@ function Feedback() {
        
         <Right>
             <h1>About Us</h1>
-            <p>Since its inception, Prasara Washing Plant
-(PVT) LTD has consistently progressed and
-evolved, establishing its position as a leading
-washing plant in the Apparel Sector.
-As a testament to our success, we have been
-accredited with various ISO standards and
-credited with numerous industry excellence
-awards. Moreover, we have secured many
-globally recognised certificates by strictly
-adhering to environmental and social
-platforms throughout the supply chain
-process.</p>
+            <p>Since its inception, Prasara Washing Plant (PVT) LTD has consistently progressed and evolved, establishing its position as a leading washing plant in the Apparel Sector. As a testament to our success, we have been accredited with various ISO standards and credited with numerous industry excellence awards. </p>
             <Link to='/about'><button className="button-90" href="/Contact">Read More</button></Link>
             <Image>
             <img src='https://ik.imagekit.io/y5xyemmwee7/assets/images/v4/bg-circle-white.webp' />
@@ -33,7 +22,7 @@ process.</p>
         </Right>
 
         <Left>
-            <img src='https://images.pexels.com/photos/7070/space-desk-workspace-coworking.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' />
+            <img src='./aboutf.jpg' />
         </Left>
       </Wrap>
     </Container>
@@ -80,7 +69,7 @@ const Image = styled.div`
 const Image_Two = styled.div`
     width: 100%;
     position: absolute;
-    bottom: -2%;
+    bottom: 2%;
     left: 80%;
     z-index: 0;
 
@@ -149,7 +138,7 @@ const Right = styled.div`
         width: 100%;
         padding: 10px;
         text-align: center;
-        margin: 40px 0;
+        margin: 20px 0;
       }
 
     p{

@@ -13,15 +13,12 @@ function Footer() {
         <img src='logo1.jpg' />
 
         <h4>Prasara Washing Plant (Pvt) Ltd</h4>
-        <p>Group Head Office</p>
-        <p>Level 23 West Tower</p>
-        <p>World Trade Center</p>
-        <p>Echelon Square</p>
-        <p>Colombo 1</p>
-        <p>Sri Lanka</p>
+        <p>Negombo road</p>
+        <p>Thambarawila</p>
+        <p>Waikkala</p>
       </Section>
 
-      <Section>
+      <Section_Middle>
         <p>Support</p>
         <h4>Home</h4>
         <h4>Abouts Us</h4>
@@ -29,7 +26,7 @@ function Footer() {
         <h4>Sustainability</h4>
         <h4>Contact Us</h4>
         
-      </Section>
+      </Section_Middle>
 
       <Section>
         <p>Contacts</p>
@@ -91,18 +88,34 @@ const Wrap = styled.div`
 const Section = styled.div`
 height: 100%;
 padding: 40px 0;
-margin: 0 80px;
+margin: 0 100px;
+
+@media only screen and (max-width: 1200px){
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
 
 
 p{
   color: #fff;
   font-size: 12px;
   padding-top: 5px ;
+
+  @media only screen and (max-width: 1200px){
+    font-size: 10px;
+  }
+  
 }
 
 h4{
   color: #fff;
   margin: 10px 0;
+
+  @media only screen and (max-width: 1200px){
+    font-size: 13px;
+  }
 }
 
 img{
@@ -125,9 +138,16 @@ a{
 
 `
 
+const Section_Middle = styled(Section)`
+@media only screen and (max-width: 1200px){
+  display: none;
+}
+
+`
+
 const Up = styled.div`
 width: 100%;
-height: 50vh;
+min-height: 50vh;
 background: var(--sec);
 display: flex;
     align-items: center;
@@ -153,6 +173,10 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+
+@media only screen and (max-width: 1200px){
+  text-align: center;
+}
 
 p{
   font-size: 13px;

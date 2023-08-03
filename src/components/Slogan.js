@@ -33,6 +33,7 @@ const Container = styled.div`
     position: relative;
 
     @media only screen and (max-width: 1200px){
+      height: 50vh;
       padding: 30px 0;
     }
 

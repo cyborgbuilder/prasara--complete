@@ -10,6 +10,7 @@ import Certify from './Certify'
 import FaceContact from './FaceContact'
 import FaceSustainability from './FaceSustainability'
 import FaceAbout from './FaceAbout'
+import Blank from './Blank'
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
       
       
       <FaceContact />
+      <Blank />
       
       {/* <FaceSustainability /> */}
       

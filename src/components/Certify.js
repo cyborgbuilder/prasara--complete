@@ -8,20 +8,7 @@ function Certify() {
         <Left>
             <h1>ACCREDITATIONS AND
 CERTIFICATIONS</h1>
-            <p>Experience a peace of mind through our
-certified washing plant services. We are an
-accredited service provider with global
-accolades and are committed to upholding the
-highest industry standards. We assure overall
-exceptional quality in the delivery of our results, utilizing state-of-the-art equipment and
-expert knowledge to ensure the utmost
-satisfaction. Whether you require thorough
-cleaning, maintenance, or repairs, our washing
-plant services are designed to meet your
-specific needs. Trust us to handle your
-operations with the utmost care and
-professionalism, providing you with the peace
-of mind you deserve.</p>
+            <p>Experience a peace of mind through our certified washing plant services. We are an accredited service provider with global accolades and are committed to upholding the highest industry standards.</p>
         </Left>
         <Right>
         <Slot>
@@ -70,6 +57,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 100px;
 `
 const Wrap = styled.div`
     width: 95%;
