@@ -5,12 +5,13 @@ import { FiMail } from "react-icons/fi";
 import { FcHome } from "react-icons/fc";
 import { FcCellPhone } from "react-icons/fc";
 import { FcInvite } from "react-icons/fc";
+import Blank from './Blank'
 function Contact() {
   return (
     <Container>
       <Head>
         <div></div>
-        <img src='https://images.pexels.com/photos/33153/raisting-sattelit-reception-signal.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' />
+        {/* <img src='https://images.pexels.com/photos/33153/raisting-sattelit-reception-signal.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' /> */}
        
       </Head>
       <Body>
@@ -54,17 +55,22 @@ function Contact() {
             </Box>
            </Boxes>
 
-           <Map>
-          
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6960723402585!2d79.86648911448738!3d7.275382715984663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e90401a964c5%3A0x1d5d44627948953c!2sPrasara%20Washing%20Plant%20Dankotuwa%20(Pvt)%20Ltd!5e0!3m2!1sen!2slk!4v1679392159732!5m2!1sen!2slk" width="1500" height="600"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-           </Map>
+           
 
            
             
 
             
         </Wrap>
+
+        
       </Body>
+      <Map>
+          
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6960723402585!2d79.86648911448738!3d7.275382715984663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e90401a964c5%3A0x1d5d44627948953c!2sPrasara%20Washing%20Plant%20Dankotuwa%20(Pvt)%20Ltd!5e0!3m2!1sen!2slk!4v1679392159732!5m2!1sen!2slk" width="100%" height="100%"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </Map>
+
+           <Blank />
     </Container>
   )
 }
@@ -83,11 +89,23 @@ const Boxes = styled.div`
   padding: 50px 0;
 
 
+  @media only screen and (max-width: 1200px){
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+
 `
 const Box = styled.div`
   width: 27%;
   height: 280px;
   margin: 0 50px ;
+
+  @media only screen and (max-width: 1200px){
+    width: 100%;
+    height: 200px;
+    margin:  20px 0;
+}
   
 
 `
@@ -100,6 +118,10 @@ const Up = styled.div`
 
   .icons_about{
     font-size: 70px;
+
+    @media only screen and (max-width: 1200px){
+      font-size: 50px;
+  }
   }
 
 
@@ -115,6 +137,10 @@ const Down = styled.div`
 
   p{
     margin: 5px 0;
+
+    @media only screen and (max-width: 1200px){
+      font-size: 12px;
+  }
   }
   a{
     display: flex;
@@ -122,6 +148,10 @@ const Down = styled.div`
   }
   h4{
     margin: 8px;
+
+    @media only screen and (max-width: 1200px){
+      font-size: 12px;
+  }
   }
   .icons_about_2{
     margin: 6px;
@@ -236,11 +266,19 @@ h3{
 
 const Map = styled.div`
   width: 100%;
+  height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px 0;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  //margin: 100px 0;
+  background: red;
+
+  @media only screen and (max-width: 1200px){
+    height: 500px;
+}
+
+
+
 
 `
 

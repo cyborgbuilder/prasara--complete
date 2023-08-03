@@ -19,7 +19,7 @@ function Sustainability() {
   };
   return (
     <Container>
-      <Head>
+      {/* <Head>
         <div></div>
         <img src='https://images.pexels.com/photos/1292464/pexels-photo-1292464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' />
       </Head>
@@ -76,7 +76,6 @@ function Sustainability() {
             <Left>
                 <div>
                 <h1>Environment</h1>
-                {/* <img src='/arrow_down2.png' /> */}
                 </div>
               </Left>
               
@@ -115,7 +114,7 @@ function Sustainability() {
            </Slot>
             
         </Wrap>
-      </Body>
+      </Body> */}
     </Container>
   )
 }
