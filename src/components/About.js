@@ -26,14 +26,89 @@ that reflect our commitment to excellence.</p>
            <Awards>
            <Slot>
                 <Upper>
-                    <img className='logo_38' src='https://logovectorseek.com/wp-content/uploads/2021/10/walbusch-walter-busch-gmbh-und-co-kg-logo-vector.png' />
+                    <img className='logo_38' src='https://www.transparentpng.com/thumb/award/1ApjuJ-award-amazing-image-download.png' />
                 </Upper>
                 <Down>
-                    <h1>Walbusch</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <h1>Sri Lanka Entrepreneur of the Year</h1>
+                    <p>Silver category</p>
+                </Down>
+            </Slot>
+
+            <Slot>
+                <Upper>
+                    <img className='logo_38' src='https://www.transparentpng.com/thumb/award/1ApjuJ-award-amazing-image-download.png' />
+                </Upper>
+                <Down>
+                    <h1>Sri Lanka Entrepreneur of the Year</h1>
+                    <p>National Gold</p>
+                </Down>
+            </Slot>
+
+            <Slot>
+                <Upper>
+                    <img className='logo_38' src='https://www.transparentpng.com/thumb/award/1ApjuJ-award-amazing-image-download.png' />
+                </Upper>
+                <Down>
+                    <h1>Takai Akimoto 5s</h1>
+                    <p>Merit Award</p>
+                </Down>
+            </Slot>
+
+            <Slot>
+                <Upper>
+                    <img className='logo_38' src='https://www.transparentpng.com/thumb/award/1ApjuJ-award-amazing-image-download.png' />
+                </Upper>
+                <Down>
+                    <h1>National Safety Award for the safest workplace</h1>
+                    <p>Merit Award</p>
+                </Down>
+            </Slot>
+
+            <Slot>
+                <Upper>
+                    <img className='logo_38' src='https://www.transparentpng.com/thumb/award/1ApjuJ-award-amazing-image-download.png' />
+                </Upper>
+                <Down>
+                    <h1>Provincial Productivity Award</h1>
+                    <p>2nd Place</p>
+                </Down>
+            </Slot>
+
+            <Slot>
+                <Upper>
+                    <img className='logo_38' src='https://www.transparentpng.com/thumb/award/1ApjuJ-award-amazing-image-download.png' />
+                </Upper>
+                <Down>
+                    <h1>Sri Lanka National Quality Award</h1>
+                    <p>Winner</p>
+                </Down>
+            </Slot>
+
+            <Slot>
+                <Upper>
+                    <img className='logo_38' src='https://www.transparentpng.com/thumb/award/1ApjuJ-award-amazing-image-download.png' />
+                </Upper>
+                <Down>
+                    <h1>National Business Excellence Award</h1>
+                    <p>Runner Up</p>
+                </Down>
+            </Slot>
+
+            <Slot>
+                <Upper>
+                    <img className='logo_38' src='https://www.transparentpng.com/thumb/award/1ApjuJ-award-amazing-image-download.png' />
+                </Upper>
+                <Down>
+                    <h1>CNCI Achiever of Industrial Excellence</h1>
+                    <p>Gold Award</p>
                 </Down>
             </Slot>
            </Awards>
+
+
+           <Video>
+           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/X4FIgdIltGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           </Video>
                 
         </Wrap>
       </Body>
@@ -90,6 +165,7 @@ const Wrap = styled.div`
 `
 
 const Header = styled.div`
+
 h1{
   font-size: 70px;
   text-align: center;
@@ -103,11 +179,11 @@ h1{
 
 p{
 
-  padding: 10px;
+  padding: 50px 0;
 
   line-height: 2.1rem;
   letter-spacing: 2.1px;
-  text-align: left;
+  text-align: center;
 
   @media only screen and (max-width: 1200px){
     font-size: 16px;
@@ -123,6 +199,8 @@ p{
 const Awards = styled.div`
   width: 100%;
   display: flex;
+  justify-content: center;
+    align-items: center;
   flex-wrap: wrap;
 
 
@@ -131,7 +209,7 @@ const Awards = styled.div`
 const Slot = styled.div`
 width: 20%;
 height: 350px;
-padding: 7px;
+padding: 15px;
 background: #fff;
 border-radius: 8px;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -154,22 +232,11 @@ transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
     padding: 10px;
     margin: 10px;
     text-align: center;
-    height: 180px;
+    height: 240px;
   }
 
 
-h1{
-    color: #fff;
-    font-size: 36px;
-    padding: 10px 0;
-    z-index: 1000;
-    border-bottom: 1px solid white;
 
-    @media only screen and (max-width: 1200px){
-        font-size: 30px;
-        padding: 10px 0;
-    }
-}
 `
 
 const Upper = styled.div`
@@ -181,6 +248,9 @@ const Upper = styled.div`
     //background: url('https://www.pngkit.com/png/detail/21-219040_fila-logo-lambang-fila.png');
     background-size: cover;
 
+    @media only screen and (max-width: 1200px){
+      height: 60%;
+    }
 
     &:hover{
         cursor: pointer;
@@ -197,12 +267,21 @@ const Upper = styled.div`
     const Down = styled.div`
     height: 30%;
 
+    @media only screen and (max-width: 1200px){
+      height: 40%;
+    }
+
 
     h1{
         color: black;
         font-size: 20px;
         text-align: center;
         letter-spacing: 1.2px;
+
+        @media only screen and (max-width: 1200px){
+          font-size: 14px;
+        }
+      
     }
 
     p{
@@ -211,6 +290,20 @@ const Upper = styled.div`
         line-height: 1.2rem;
         text-align: center;
     }
+
+`
+
+const Video = styled.div`
+    width: 100%;
+    height: 600px;
+    margin: 100px 0;
+
+    @media only screen and (max-width: 1200px){
+      height: 400px;
+      margin: 50px 0;
+  }
+
+
 
 `
 
