@@ -20,7 +20,7 @@ function Contact() {
            <h1>Contact Us</h1>
            </Header>
            
-           <Boxes>
+           {/* <Boxes>
             <Box>
               <Up>
                 <FcHome className='icons_about'/>
@@ -53,7 +53,7 @@ function Contact() {
               <a href='mailto: dhammikah@prasarawashing.com'>< FiMail className='icons_about_3' /> <h4>dhammikah@prasarawashing.com</h4></a>
               </Down>
             </Box>
-           </Boxes>
+           </Boxes> */}
 
            
 

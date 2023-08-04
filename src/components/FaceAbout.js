@@ -16,9 +16,7 @@ function Feedback() {
             <img src='https://ik.imagekit.io/y5xyemmwee7/assets/images/v4/bg-circle-white.webp' />
             </Image>
 
-            <Image_Two>
-            <img src='https://ik.imagekit.io/y5xyemmwee7/assets/images/v4/sqr-dots-white.webp' />
-            </Image_Two>
+            
         </Right>
 
         <Left>

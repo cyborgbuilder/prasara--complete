@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import {  BsFillTelephoneFill } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
 function Footer() {
   return (
     <Container>
@@ -32,11 +33,9 @@ function Footer() {
         <p>Contacts</p>
         <a href='tel:+94114797000'>< BsFillTelephoneFill className='icons_footer'  /> <h4>(+94) 11 4797000</h4></a>
         <a href='tel:+94768287040'>< BsFillTelephoneFill className='icons_footer' /> <h4>(+94) 76 8287 040</h4></a>
-          <a href='#'>< FaFacebook className='icons_footer' /> <p>instagram.com/prasarawashingplant</p></a>
-        <a href='#'>< FaInstagram className='icons_footer' /> <p>facebook.com/prasarawashingplant</p></a>
-        <a href='#'>< FaYoutube className='icons_footer' /> <p>youtube.com/prasarawashingplant</p></a>
-        
-       
+          
+        <a href='mailto: dhammikah@prasarawashing.com'>< FiMail className='icons_footer' /> <p>dhammikah@prasarawashing.com</p></a>
+        <a href='mailto: rec@prasarawashing.com. '>< FiMail className='icons_footer' /> <p>rec@prasarawashing.com. </p></a>
       </Section>
       
       </Wrap>
@@ -95,6 +94,7 @@ margin: 0 100px;
   margin: 0;
   padding: 10px 0;
   text-align: center;
+  height: 50%;
 }
 
 
@@ -128,6 +128,12 @@ a{
   display: flex;
   margin: 10px 0;
   text-decoration: none;
+
+  @media only screen and (max-width: 1200px){
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 .icons_footer{
@@ -147,11 +153,15 @@ const Section_Middle = styled(Section)`
 
 const Up = styled.div`
 width: 100%;
-min-height: 50vh;
+height: 50vh;
 background: var(--sec);
 display: flex;
     align-items: center;
     justify-content: center;
+
+    @media only screen and (max-width: 1200px){
+      height: 60vh;
+    }
 
 `
 
