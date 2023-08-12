@@ -27,6 +27,7 @@ const Container = styled.div`
     @media only screen and (max-width: 1200px){
         flex-direction: column;
         height: 110vh;
+        margin: 0;
       }
 `
 const Wrap = styled.div`

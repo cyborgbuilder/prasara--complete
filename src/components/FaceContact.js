@@ -8,7 +8,7 @@ function Feedback() {
         <Left>
             <h1>Connect with Us</h1>
             <p>We value your engagement and would love to
-hear from you. Thus, inquiries, feedback, or
+hear from you. <br></br>Thus, inquiries, feedback, or
 requests of exploring potential collaborations
 are quite welcome. Our team of experts is
 ready to assist you and provide the
@@ -16,7 +16,8 @@ information you need.</p>
             <button className="button-89" >Contact us</button>
         </Left>
         <Right>
-            <img src='https://static.vecteezy.com/packs/media/components/pricing/pricing-main/img/pricing-hero-800px-b8810bc733a9898472effdd5fe2bc606.jpg' />
+            {/* <img src='https://static.vecteezy.com/packs/media/components/pricing/pricing-main/img/pricing-hero-800px-b8810bc733a9898472effdd5fe2bc606.jpg' /> */}
+            <img src='./cnnect.png' />
         </Right>
       </Wrap>
     </Container>
@@ -32,10 +33,11 @@ const Container = styled.div`
     justify-content: center;
 `
 const Wrap = styled.div`
-    width: 95%;
+    width: 100%;
     height: 100%;
     display: flex;
     border: 1px solid white;
+    padding-left: 30px;
 
     @media only screen and (max-width: 1200px){
         flex-direction: column;

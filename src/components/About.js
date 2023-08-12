@@ -27,32 +27,28 @@ that reflect our commitment to excellence.</p>
            <Slot>
                 
                 <Down>
-                    <h1>Sri Lanka Entrepreneur of the Year (National Award)</h1>
-                    <p>Enterprising vision & National Contribution</p>
+                    <h1>Sri Lanka Entrepreneur of the Year 2002<br></br> (National Gold Award)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>Sri Lanka National Quality Award</h1>
-                    <p>Winner</p>
+                    <h1>Sri Lanka National Quality Award <br></br>(2006)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>National Business Excellence Award</h1>
-                    <p>Runners Up</p>
+                    <h1>CNCI Achiever of Industrial Excellence (2007)<br></br>Gold Award</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>CNCI Achiever of Industrial Excellence</h1>
-                    <p>Gold Award</p>
+                    <h1>National Cleaner Production Award (2007) <br></br>(Raw Material Efficiency)</h1>
                 </Down>
             </Slot>
 
@@ -61,129 +57,112 @@ that reflect our commitment to excellence.</p>
             <Slot>
                 
                 <Down>
-                    <h1>National Cleaner Production Award ((Raw Material Efficiency))</h1>
-                    <p>Runner Up</p>
+                    <h1>National Cleaner Production Award <br></br>(Energy Efficiency)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>National Cleaner Production Award (Energy Efficiency)</h1>
-                    <p>Winner</p>
+                    <h1>National Cleaner Production Award <br></br>(2007)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>National Cleaner Production Award</h1>
-                    <p>Gold Award</p>
-                </Down>
-            </Slot>
-
-            
-
-            <Slot>
-                
-                <Down>
-                    <h1>National Occupational Safety & Health Excellence Award</h1>
-                    <p>Winner</p>
+                    <h1>National Occupational Safety & Health Excellence Award<br></br>(2016)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>“Wayamba Wijayabhimani” Best Productive Enterprise Award</h1>
-                    <p>Winner</p>
+                    <h1>“Wayamba Wijayabhimani” Best Productive Enterprise Award<br></br>(2014)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>“Wayamba Wijayabhimani” Best Enterprise Award</h1>
-                    <p>Winner</p>
+                    <h1>“Wayamba Wijayabhimani” Best Enterprise Award<br></br>(2014)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>Thambapanni Abimani Award</h1>
-                    <p>Hall of Fame</p>
+                    <h1>Thambapanni Abimani Award Hall of Fame<br></br>(2018)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>Industrial Safety Award</h1>
-                    <p>Runners Up</p>
+                    <h1>National Business Excellence Award (2007) <br></br>Runners Up</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>National Productive Award</h1>
-                    <p>2nd Place</p>
+                    <h1>Industrial Safety Award (2008) <br></br>Runners Up</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>National Productive Award</h1>
-                    <p>2nd Place</p>
+                    <h1>National Productive Award(2006) <br></br> Runners Up</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>Provincial Productivity Award</h1>
-                    <p>2nd Place</p>
+                    <h1>Provincial Productivity Award(2006) <br></br>Runners Up</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>Takai Akimoto 5s</h1>
-                    <p>Merit Award</p>
+                    <h1>Sri Lanka Entrepreneur of the Year (2000)<br></br>(Provincial Silver Award)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>National Safety Award for the safest workplace</h1>
-                    <p>Merit Award</p>
+                    <h1>Sri Lanka Entrepreneur of the Year (2001)<br></br>(National Silver Award)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>Sri Lanka Entrepreneur of the Year (Provincial Award)</h1>
-                    <p>Silver category</p>
+                    <h1>Sri Lanka Entrepreneur of the Year (2001)<br></br> (Provincial Silver Award)</h1>
                 </Down>
             </Slot>
 
             <Slot>
                 
                 <Down>
-                    <h1>Sri Lanka Entrepreneur of the Year (Provincial Award)</h1>
-                    <p>Silver category</p>
+                    <h1>National Safety Award for the safest work place Merit Award (2006)</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                {/* <Upper>
-                    <img className='logo_38' src='https://www.pngall.com/wp-content/uploads/5/Trophy-Award-PNG-Picture.png' />
-                </Upper> */}
+                
+                <Down>
+                    <h1>Takai Akimoto 5s Merit Award (2003) </h1>
+                </Down>
+            </Slot>
+
+            <Slot>
+                <Upper>
+                    {/* <img className='logo_38' src='./award.png' /> */}
+                </Upper>
                 <Down>
                     <h1>Takai Akimoto 5s</h1>
                     <p>Merit Award</p>
@@ -194,13 +173,14 @@ that reflect our commitment to excellence.</p>
            </Awards>
 
 
-           
+            <Video>
+                <h1>We are on youtube</h1>
+           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/X4FIgdIltGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           </Video>
                 
         </Wrap>
 
-        <Video>
-           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/X4FIgdIltGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-           </Video>
+        
       </Body>
     </Container>
   )
@@ -249,7 +229,12 @@ const Body = styled.div`
 const Wrap = styled.div`
     width: 95%;
     padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+    
    
 
 `
@@ -304,7 +289,7 @@ flex-direction: column;
 justify-content: flex-end;
 
   align-items: center;
-background: url("https://www.pngall.com/wp-content/uploads/5/Trophy-Award-PNG-Picture.png");
+
 
 background-size: cover;
 
@@ -402,13 +387,20 @@ const Down = styled.div`
 `
 
 const Video = styled.div`
-    width: 100%;
-    height: 600px;
+    width: 80%;
+    height: 550px;
     margin: 100px 0;
+    
+    h1{
+        color: var(--sec);
+        margin: 50px 0;
+        text-align: center;
+    }
 
     @media only screen and (max-width: 1200px){
-      height: 400px;
-      margin: 50px 0;
+        width: 100%;
+      height: 300px;
+      margin: 100px 0;
   }
 
 

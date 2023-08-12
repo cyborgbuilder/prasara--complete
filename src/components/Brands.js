@@ -6,7 +6,7 @@ function About() {
     <Container>
       <Head>
         <div></div>
-        {/* <img src='./brands.png' /> */}
+        <img src='./brands.png' />
       </Head>
       <Body>
            <Header>
@@ -14,11 +14,20 @@ function About() {
            
            </Header>
 
-           <Detail>
+           {/* <Detail>
            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-           </Detail>
+           </Detail> */}
 
            <Wrap>
+           <Slot>
+                <Upper>
+                    <img className='logo_24' src='https://www.pngall.com/wp-content/uploads/2018/05/Disney-Logo-PNG-Pic.png' />
+                </Upper>
+                <Down>
+                    <h1>Disney</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </Down>
+            </Slot>
 
            <Slot>
                 <Upper>
@@ -32,7 +41,7 @@ function About() {
 
             <Slot>
                 <Upper>
-                    <img className='logo_32' src='https://www.pngmart.com/files/22/Polo-Ralph-Lauren-Logo-Logo-PNG-HD.png' />
+                    <img className='logo_32' src='https://logowik.com/content/uploads/images/731_poloralphlauren.jpg' />
                 </Upper>
                 <Down>
                     <h1>Polo</h1>
@@ -172,7 +181,17 @@ function About() {
 
             <Slot>
                 <Upper>
-                    <img className='logo_28' src='https://www.edigitalagency.com.au/wp-content/uploads/nike-logo-png-black-icon-white-background-large.png' />
+                    <img className='logo_34' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walmart_logo.svg/1280px-Walmart_logo.svg.png' />
+                </Upper>
+                <Down>
+                    <h1>Walmart</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </Down>
+            </Slot>
+
+            <Slot>
+                <Upper>
+                    <img className='logo_28' src='https://pngimg.com/d/nike_PNG11.png' />
                 </Upper>
                 <Down>
                     <h1>Nike</h1>
@@ -259,6 +278,16 @@ function About() {
                 </Upper>
                 <Down>
                     <h1>next</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </Down>
+            </Slot>
+
+            <Slot>
+                <Upper>
+                    <img className='logo_27' src='./george.png' />
+                </Upper>
+                <Down>
+                    <h1>George</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </Down>
             </Slot>
@@ -359,7 +388,7 @@ function About() {
             
             <Slot>
                 <Upper>
-                    <img className='logo_29' src='https://download.logo.wine/logo/Old_Navy/Old_Navy-Logo.wine.png' />
+                    <img className='logo_29' src='https://1000logos.net/wp-content/uploads/2022/08/Old-Navy-Logo-2005.png' />
                 </Upper>
                 <Down>
                     <h1>Old Navy</h1>
@@ -369,7 +398,7 @@ function About() {
 
             <Slot>
                 <Upper>
-                    <img className='logo_22' src='https://www.landsend.com/newsroom/multimedia/logos/images/2018-le-logo.png' />
+                    <img className='logo_22' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/LandsEnd_Logo.svg/1280px-LandsEnd_Logo.svg.png' />
                 </Upper>
                 <Down>
                     <h1>Land's end</h1>
@@ -529,7 +558,7 @@ const Slot = styled.div`
 width: 15%;
 height: 200px;
 padding: 15px;
-background: #fff;
+background: #FBFCFA;
 border-radius: 8px;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 position: relative;

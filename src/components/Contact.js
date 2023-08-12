@@ -2,16 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import {  BsFillTelephoneFill } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
-import { FcHome } from "react-icons/fc";
-import { FcCellPhone } from "react-icons/fc";
-import { FcInvite } from "react-icons/fc";
+import { FaHome } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+import { FaMailBulk } from "react-icons/fa";
 import Blank from './Blank'
 function Contact() {
   return (
     <Container>
       <Head>
         <div></div>
-        {/* <img src='https://images.pexels.com/photos/33153/raisting-sattelit-reception-signal.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' /> */}
+        <img src='./contact.png' />
        
       </Head>
       <Body>
@@ -20,10 +20,10 @@ function Contact() {
            <h1>Contact Us</h1>
            </Header>
            
-           {/* <Boxes>
+           <Boxes>
             <Box>
               <Up>
-                <FcHome className='icons_about'/>
+                <FaHome className='icons_about'/>
               </Up>
               <Down>
                   <p>Prasara Washing Plant (Pvt) Ltd</p>
@@ -35,25 +35,28 @@ function Contact() {
 
             <Box>
               <Up>
-                <FcCellPhone className='icons_about'/>
+                <FaPhone className='icons_about'/>
               </Up>
               <Down>
               <a href='tel:+94114797000'>< BsFillTelephoneFill className='icons_about_2'  /> <h4>(+94) 11 4797000</h4></a>
               <a href='tel:+94768287040'>< BsFillTelephoneFill className='icons_about_2' /> <h4>(+94) 76 8287 040</h4></a>
               <a href='tel:+94768287041'>< BsFillTelephoneFill className='icons_about_2' /> <h4>(+94) 76 8287 041</h4></a>
               <a href='tel:+94768287042'>< BsFillTelephoneFill className='icons_about_2' /> <h4>(+94) 76 8287 042</h4></a>
+             
+
               </Down>
             </Box>
 
             <Box>
               <Up>
-                <FcInvite className='icons_about'/>
+                <FaMailBulk className='icons_about'/>
               </Up>
               <Down>
+              <a href='mailto: dhammikah@prasarawashing.com'>< FiMail className='icons_about_3' /> <h4>rec@prasarawashing.com</h4></a>
               <a href='mailto: dhammikah@prasarawashing.com'>< FiMail className='icons_about_3' /> <h4>dhammikah@prasarawashing.com</h4></a>
               </Down>
             </Box>
-           </Boxes> */}
+           </Boxes>
 
            
 
@@ -98,12 +101,20 @@ const Boxes = styled.div`
 `
 const Box = styled.div`
   width: 27%;
-  height: 280px;
-  margin: 0 50px ;
+  height: 320px;
+  margin: 0 30px ;
+  border-radius: 10px;
+  border: 1px solid var(--sec);
+  border-right: 1px solid var(--sec);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
   @media only screen and (max-width: 1200px){
     width: 100%;
-    height: 200px;
+    height: 280px;
     margin:  20px 0;
 }
   
@@ -111,16 +122,21 @@ const Box = styled.div`
 `
 
 const Up = styled.div`
-  height: 50%;
+  height: 35%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin-top: 20px;
+
+  @media only screen and (max-width: 1200px){
+    height: 30%;
+}
 
   .icons_about{
-    font-size: 70px;
+    font-size: 65px;
+
 
     @media only screen and (max-width: 1200px){
-      font-size: 50px;
+      font-size: 45px;
   }
   }
 
@@ -129,14 +145,19 @@ const Up = styled.div`
 `
 
 const Down = styled.div`
-  height: 50%;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
+  @media only screen and (max-width: 1200px){
+    height: 55%;
+}
+
   p{
     margin: 5px 0;
+
 
     @media only screen and (max-width: 1200px){
       font-size: 12px;
@@ -145,6 +166,9 @@ const Down = styled.div`
   a{
     display: flex;
     text-decoration: none;
+    margin: 6px 0;
+    color: #585858;
+
   }
   h4{
     margin: 8px;
@@ -271,7 +295,6 @@ const Map = styled.div`
   align-items: center;
   justify-content: center;
   //margin: 100px 0;
-  background: red;
 
   @media only screen and (max-width: 1200px){
     height: 500px;

@@ -31,11 +31,11 @@ function Footer() {
 
       <Section>
         <p>Contacts</p>
-        <a href='tel:+94114797000'>< BsFillTelephoneFill className='icons_footer'  /> <h4>(+94) 11 4797000</h4></a>
+        <a href='tel:+9431 4927863'>< BsFillTelephoneFill className='icons_footer'  /> <h4>(+94) 31 4927863</h4></a>
         <a href='tel:+94768287040'>< BsFillTelephoneFill className='icons_footer' /> <h4>(+94) 76 8287 040</h4></a>
-          
-        <a href='mailto: dhammikah@prasarawashing.com'>< FiMail className='icons_footer' /> <p>dhammikah@prasarawashing.com</p></a>
         <a href='mailto: rec@prasarawashing.com. '>< FiMail className='icons_footer' /> <p>rec@prasarawashing.com. </p></a>
+        <a href='mailto: dhammikah@prasarawashing.com'>< FiMail className='icons_footer' /> <p>dhammikah@prasarawashing.com</p></a>
+        
       </Section>
       
       </Wrap>
@@ -153,7 +153,7 @@ const Section_Middle = styled(Section)`
 
 const Up = styled.div`
 width: 100%;
-height: 50vh;
+height: 45vh;
 background: var(--sec);
 display: flex;
     align-items: center;
@@ -167,7 +167,7 @@ display: flex;
 
 const Down = styled.div`
   width: 100%;
-  height: 25vh;
+  height: 20vh;
   background: #000634;
   display: flex;
   align-items: center;

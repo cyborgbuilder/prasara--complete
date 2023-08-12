@@ -25,7 +25,7 @@ function Home() {
       <Certify />
       
       
-      {/* <FaceContact /> */}
+      <FaceContact />
       <Blank />
       
       {/* <FaceSustainability /> */}
