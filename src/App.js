@@ -2,8 +2,6 @@ import './App.css';
 import About from './components/About';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Page from './components/Page';
-import Careers from './components/Careers'
 import Contact from './components/Contact';
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Production from './components/Production';
