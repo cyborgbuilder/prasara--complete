@@ -219,7 +219,7 @@ such as</p>
                     <img src='./mirror.png' />
                   </Up>
                   <Down>
-                    <p>Donations for clubs and societies (HELPAGE,United sports club, Asiri Uyana Grama Sanwardana Samithiya)</p>
+                    <p>Donations for clubs and societies </p>
                   </Down>
                 </Box>
 
@@ -345,7 +345,7 @@ p{
 
 `
 const Slot = styled.div`
-  width: 70%;
+  width: 68%;
   height: 300px;
   display: flex;
   background-size: cover;

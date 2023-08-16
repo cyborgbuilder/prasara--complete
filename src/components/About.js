@@ -12,7 +12,7 @@ function About() {
         <Wrap>
            <Header>
            <h1>About Us</h1>
-            <p>Established in 1998, Prasara Washing Plant
+            <p>Established in 1992, Prasara Washing Plant
 (PVT) LTD has persistently developed and
 emerged as one of the leading washing plants
 in the industry consolidating its status.
@@ -25,28 +25,46 @@ that reflect our commitment to excellence.</p>
            </Header>
            <Awards>
            <Slot>
-                
+           <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>Sri Lanka Entrepreneur of the Year 2002<br></br> (National Gold Award)</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
+                <Down>
+                    <h1>Sri Lanka Entrepreneur of the Year (2001)<br></br>(National Silver Award)</h1>
+                </Down>
+            </Slot>
+
+
+            <Slot>
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>Sri Lanka National Quality Award <br></br>(2006)</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>CNCI Achiever of Industrial Excellence (2007)<br></br>Gold Award</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>National Cleaner Production Award (2007) <br></br>(Raw Material Efficiency)</h1>
                 </Down>
@@ -55,119 +73,134 @@ that reflect our commitment to excellence.</p>
             
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>National Cleaner Production Award <br></br>(Energy Efficiency)</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>National Cleaner Production Award <br></br>(2007)</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>National Occupational Safety & Health Excellence Award<br></br>(2016)</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>“Wayamba Wijayabhimani” Best Productive Enterprise Award<br></br>(2014)</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>“Wayamba Wijayabhimani” Best Enterprise Award<br></br>(2014)</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>Thambapanni Abimani Award Hall of Fame<br></br>(2018)</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>National Business Excellence Award (2007) <br></br>Runners Up</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>Industrial Safety Award (2008) <br></br>Runners Up</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>National Productive Award(2006) <br></br> Runners Up</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>Provincial Productivity Award(2006) <br></br>Runners Up</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>Sri Lanka Entrepreneur of the Year (2000)<br></br>(Provincial Silver Award)</h1>
                 </Down>
             </Slot>
 
+            
             <Slot>
-                
-                <Down>
-                    <h1>Sri Lanka Entrepreneur of the Year (2001)<br></br>(National Silver Award)</h1>
-                </Down>
-            </Slot>
-
-            <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>Sri Lanka Entrepreneur of the Year (2001)<br></br> (Provincial Silver Award)</h1>
                 </Down>
             </Slot>
 
             <Slot>
-                
+            <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 <Down>
                     <h1>National Safety Award for the safest work place Merit Award (2006)</h1>
                 </Down>
             </Slot>
 
             <Slot>
+                <Upper>
+                    <img src='./award.png' />
+                </Upper>
                 
                 <Down>
                     <h1>Takai Akimoto 5s Merit Award (2003) </h1>
                 </Down>
             </Slot>
 
-            <Slot>
-                <Upper>
-                    {/* <img className='logo_38' src='./award.png' /> */}
-                </Upper>
-                <Down>
-                    <h1>Takai Akimoto 5s</h1>
-                    <p>Merit Award</p>
-                </Down>
-            </Slot>
+            
 
           
            </Awards>
@@ -326,9 +359,7 @@ const Upper = styled.div`
     height: 65%;
     display: flex;
     align-items: center;
-    jsutify-content: center;
-    
-    background-size: cover;
+    justify-content: center;
 
     @media only screen and (max-width: 1200px){
       height: 60%;
@@ -341,9 +372,8 @@ const Upper = styled.div`
     }
 
     img{
-        width: 100%;
-        height: 100%;
-        border-radius: 5px;
+        width: 40%;
+
     }
     `
 
