@@ -33,6 +33,9 @@ CERTIFICATIONS</h1>
         <img src='./7.png' />
         </Slot>
         <Slot>
+        <img src='./12.png' />
+        </Slot>
+        <Slot>
         <img src='./8.png' />
         </Slot>
         <Slot>
@@ -107,7 +110,7 @@ const Slot = styled.div`
     width: 200px; 
     height: 200px;
     border-radius: 5px;
-    margin: 20px;
+    margin: 30px 20px;
     display: flex;
     align-items: center;
     justify-content: center;

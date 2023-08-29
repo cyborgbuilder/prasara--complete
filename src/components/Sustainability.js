@@ -75,7 +75,7 @@ installed and put into operation the following,</p>
                     <img src='./mirror.png' />
                   </Up>
                   <Down>
-                    <p>Water Treatment plant</p>
+                    <p>Effluent Treatment Plant</p>
                   </Down>
                 </Box>
 

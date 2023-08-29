@@ -29,7 +29,15 @@ that reflect our commitment to excellence.</p>
                     <img src='./award.png' />
                 </Upper>
                 <Down>
-                    <h1>Sri Lanka Entrepreneur of the Year 2002<br></br> (National Gold Award)</h1>
+                    <h1>NorLanka Vendor Award (2022)<br></br> Winner <br></br>Supply Chain Partner (Washing)</h1>
+                </Down>
+            </Slot>
+           <Slot>
+           <Upper>
+                    <img src='./award.png' />
+                </Upper>
+                <Down>
+                    <h1>Sri Lanka Entrepreneur of the Year (2002)<br></br> (National Gold Award)</h1>
                 </Down>
             </Slot>
 
@@ -77,7 +85,7 @@ that reflect our commitment to excellence.</p>
                     <img src='./award.png' />
                 </Upper>
                 <Down>
-                    <h1>National Cleaner Production Award <br></br>(Energy Efficiency)</h1>
+                    <h1>National Cleaner Production Award (2007)<br></br>(Energy Efficiency)</h1>
                 </Down>
             </Slot>
 
@@ -149,7 +157,7 @@ that reflect our commitment to excellence.</p>
                     <img src='./award.png' />
                 </Upper>
                 <Down>
-                    <h1>National Productive Award(2006) <br></br> Runners Up</h1>
+                    <h1>National Productivity Award(2006)<br></br>Runners Up</h1>
                 </Down>
             </Slot>
 
@@ -196,7 +204,7 @@ that reflect our commitment to excellence.</p>
                 </Upper>
                 
                 <Down>
-                    <h1>Takai Akimoto 5s Merit Award (2003) </h1>
+                    <h1>Takai Akimoto 5s Merit Award (2002)</h1>
                 </Down>
             </Slot>
 
@@ -316,7 +324,7 @@ const Awards = styled.div`
 
 const Slot = styled.div`
 width: 19%;
-height: 280px;
+height: 300px;
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
