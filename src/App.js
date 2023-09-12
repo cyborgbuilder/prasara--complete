@@ -34,7 +34,7 @@ function App() {
       {/* <Navbar />
       {component} */}
 
-      <BrowserRouter basename='/home'>
+      <BrowserRouter >
       <Navbar />
       <SocialBooth />
         <Routes>
