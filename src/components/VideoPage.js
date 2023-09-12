@@ -63,7 +63,7 @@ const Container = styled.div`
     height: 89vh;
 
     @media only screen and (max-width: 1200px){
-      height: 40vh;
+      height: 43vh;
 
     }
     

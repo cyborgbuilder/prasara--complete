@@ -19,7 +19,7 @@ function Sustainability() {
     <Container>
       <Head>
         <div></div>
-        <img src='./susrainability.png' />
+        <img src='https://lh3.googleusercontent.com/u/2/drive-viewer/AITFw-yYCwoYPpRCq9Ad104oy9e8rrPPqaQ98Lw7eRFHNxc0Nmv5SF1h2_j1gmBDhz0zw9p1yvFL-wdnpP48dovHNjbQk2Kttw=w1920-h878' />
       </Head>
       <Body>
         <Wrap>

@@ -6,7 +6,7 @@ function About() {
     <Container>
       <Head>
         <div></div>
-        <img src='./about3.jpg' />
+        <img src='https://lh3.googleusercontent.com/u/2/drive-viewer/AITFw-xg04tBDMqMU4l1kQ0iUfjFOcAM1zh7L58ce7ULutU3-Bt0AKFB878VX3Z0ctMrf1CeI4br6S1p1MXTAyenAH70dN9O=w1920-h878' />
       </Head>
       <Body>
         <Wrap>

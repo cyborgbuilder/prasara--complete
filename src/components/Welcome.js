@@ -26,7 +26,7 @@ const Container = styled.div`
 
     @media only screen and (max-width: 1200px){
         flex-direction: column;
-        height: 110vh;
+        height: 92vh;
         margin: 0;
       }
 `

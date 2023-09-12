@@ -11,7 +11,7 @@ function Contact() {
     <Container>
       <Head>
         <div></div>
-        <img src='./contact.png' />
+        <img src='https://lh3.googleusercontent.com/u/2/drive-viewer/AITFw-x99JCO5baS5RJ1ovnv_GzHxP64Abuit0JxLQg7-AZG-6ZaSkLE6gFieCI2l8Rpvf8XNwweOQvVLUsVc_-I6tpmhGPEkg=w1920-h878' />
        
       </Head>
       <Body>
@@ -26,7 +26,7 @@ function Contact() {
                 <FaHome className='icons_about'/>
               </Up>
               <Down>
-                  <p>Prasara Washing Plant (Pvt) Ltd</p>
+                  <p>Prasara Washing Plant Dankotuwa<br></br> (Pvt) Ltd</p>
                   <p>Negombo road</p>
                   <p>Thambarawila</p>
                   <p>Waikkala</p>
@@ -158,6 +158,7 @@ const Down = styled.div`
 
   p{
     margin: 5px 0;
+    text-align: center;
 
 
     @media only screen and (max-width: 1200px){
