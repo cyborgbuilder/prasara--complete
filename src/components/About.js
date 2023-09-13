@@ -1,12 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
+import LazyImage from './LazyImage';
 function About() {
   return (
     <Container>
       <Head>
         <div></div>
-        <img src='https://lh3.googleusercontent.com/u/2/drive-viewer/AITFw-xg04tBDMqMU4l1kQ0iUfjFOcAM1zh7L58ce7ULutU3-Bt0AKFB878VX3Z0ctMrf1CeI4br6S1p1MXTAyenAH70dN9O=w1920-h878' />
+        <LazyImage
+            src="https://lh3.googleusercontent.com/u/2/drive-viewer/AITFw-xg04tBDMqMU4l1kQ0iUfjFOcAM1zh7L58ce7ULutU3-Bt0AKFB878VX3Z0ctMrf1CeI4br6S1p1MXTAyenAH70dN9O=w1920-h878"
+            blurhash="LeL#FB00a$WB_4M{axof00WCofof"
+            alt="Welcome"
+          />
+        <img src='' />
       </Head>
       <Body>
         <Wrap>

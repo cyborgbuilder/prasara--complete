@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import LazyImage from './LazyImage'
 
 function Welcome() {
   return (
@@ -9,7 +10,13 @@ function Welcome() {
             <p> Where Quality Meets Perfection! Discover our state-of-the-art facility and unrivaled expertise in the washing industry. Trust us to revitalize your belongings with our meticulous care and commitment to excellence. Experience the ultimate satisfaction that comes with choosing Prasara Washing Plant.</p>
         </Left>
         <Right>
-            <img src='./main.jpg' />
+
+
+            <LazyImage
+            src="./main.jpg"
+            blurhash="LaI}q+W?_N-;%gRjRjxus.kCIoWA"
+            alt="Welcome"
+          />
         </Right>
     </Container>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
+import LazyImage from './LazyImage';
 
 function Feedback() {
   return (
@@ -20,7 +21,12 @@ function Feedback() {
         </Right>
 
         <Left>
-            <img src='./aboutf.jpg' />
+        <LazyImage
+            src="./aboutf.jpg"
+            blurhash="LEKBg.8^$|%h~U?b_3Sh$|kCWXRi"
+            alt="About"
+            className='lazy'
+          />
         </Left>
       </Wrap>
     </Container>
@@ -102,6 +108,7 @@ const Left = styled.div`
     align-items: center;
     justify-content: center;
     z-index: 1;
+    padding: 0 10px;
     //margin: 30px 0;
 
     @media only screen and (max-width: 1200px){
