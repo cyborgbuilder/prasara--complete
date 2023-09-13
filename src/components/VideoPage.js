@@ -8,6 +8,7 @@ function VideoPage() {
 
   const settings = {
     dots: false,
+    lazyLoad: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
