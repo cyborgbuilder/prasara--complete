@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 function Feedback() {
   return (
@@ -13,7 +14,8 @@ requests of exploring potential collaborations
 are quite welcome. Our team of experts is
 ready to assist you and provide the
 information you need.</p>
-            <button className="button-89" >Contact us</button>
+            
+            <Link to='/contact'><button className="button-89" >Contact us</button></Link>
         </Left>
         <Right>
             {/* <img src='https://static.vecteezy.com/packs/media/components/pricing/pricing-main/img/pricing-hero-800px-b8810bc733a9898472effdd5fe2bc606.jpg' /> */}

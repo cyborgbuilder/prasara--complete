@@ -2,22 +2,40 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
 import LazyImage from './LazyImage';
+import Accordian   from './Accordian';
 function About() {
+
+    const imgurl = './award.png'
   return (
     <Container>
       <Head>
         <div></div>
         <LazyImage
-            src="https://lh3.googleusercontent.com/u/2/drive-viewer/AITFw-xg04tBDMqMU4l1kQ0iUfjFOcAM1zh7L58ce7ULutU3-Bt0AKFB878VX3Z0ctMrf1CeI4br6S1p1MXTAyenAH70dN9O=w1920-h878"
-            blurhash="LeL#FB00a$WB_4M{axof00WCofof"
+            src="about3.jpg"
+            blurhash="LOLXVt%htPNH~qWF%2Rj%MR*t7Ri"
             alt="Welcome"
           />
-        <img src='' />
       </Head>
       <Body>
         <Wrap>
+        
            <Header>
            <h1>About Us</h1>
+           </Header>
+           <Title>
+                <h1>Who are we</h1>
+                <div class="loader">
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                </div> 
+            </Title>
+
+            <Header>
             <p>Established in 1992, Prasara Washing Plant
 (PVT) LTD has persistently developed and
 emerged as one of the leading washing plants
@@ -27,12 +45,17 @@ years, acquired the trust and loyalty of our
 valued customers. As a testament to our
 success, we have achieved numerous accolades
 that reflect our commitment to excellence.</p>
+            </Header>
+
            
-           </Header>
            <Awards>
            <Slot>
            <Upper>
-                    <img src='./award.png' />
+                    <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>NorLanka Vendor Award (2022)<br></br> Winner <br></br>Supply Chain Partner (Washing)</h1>
@@ -40,7 +63,11 @@ that reflect our commitment to excellence.</p>
             </Slot>
            <Slot>
            <Upper>
-                    <img src='./award.png' />
+           <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>Sri Lanka Entrepreneur of the Year (2002)<br></br> (National Gold Award)</h1>
@@ -49,7 +76,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>Sri Lanka Entrepreneur of the Year (2001)<br></br>(National Silver Award)</h1>
@@ -59,7 +90,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>Sri Lanka National Quality Award <br></br>(2006)</h1>
@@ -68,7 +103,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>CNCI Achiever of Industrial Excellence (2007)<br></br>Gold Award</h1>
@@ -77,7 +116,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>National Cleaner Production Award (2007) <br></br>(Raw Material Efficiency)</h1>
@@ -88,7 +131,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>National Cleaner Production Award (2007)<br></br>(Energy Efficiency)</h1>
@@ -97,7 +144,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>National Cleaner Production Award <br></br>(2007)</h1>
@@ -106,7 +157,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>National Occupational Safety & Health Excellence Award<br></br>(2016)</h1>
@@ -115,7 +170,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>“Wayamba Wijayabhimani” Best Productive Enterprise Award<br></br>(2014)</h1>
@@ -124,7 +183,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>“Wayamba Wijayabhimani” Best Enterprise Award<br></br>(2014)</h1>
@@ -133,7 +196,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>Thambapanni Abimani Award Hall of Fame<br></br>(2018)</h1>
@@ -142,7 +209,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>National Business Excellence Award (2007) <br></br>Runners Up</h1>
@@ -151,7 +222,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>Industrial Safety Award (2008) <br></br>Runners Up</h1>
@@ -160,7 +235,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>National Productivity Award(2006)<br></br>Runners Up</h1>
@@ -169,7 +248,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>Provincial Productivity Award(2006) <br></br>Runners Up</h1>
@@ -178,7 +261,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>Sri Lanka Entrepreneur of the Year (2000)<br></br>(Provincial Silver Award)</h1>
@@ -188,7 +275,11 @@ that reflect our commitment to excellence.</p>
             
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>Sri Lanka Entrepreneur of the Year (2001)<br></br> (Provincial Silver Award)</h1>
@@ -197,7 +288,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
             <Upper>
-                    <img src='./award.png' />
+            <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 <Down>
                     <h1>National Safety Award for the safest work place Merit Award (2006)</h1>
@@ -206,7 +301,11 @@ that reflect our commitment to excellence.</p>
 
             <Slot>
                 <Upper>
-                    <img src='./award.png' />
+                <LazyImage
+                        src={imgurl}
+                        blurhash="LGJH%5-O0b4_%#s+WENLNOR-x9xr"
+                        alt=""
+                    />
                 </Upper>
                 
                 <Down>
@@ -224,6 +323,21 @@ that reflect our commitment to excellence.</p>
                 <h1>We are on youtube</h1>
            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/X4FIgdIltGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
            </Video>
+
+           <Title>
+                <h1>Operating Ethically</h1>
+                <div class="loader">
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                <div class="loader-square"></div>
+                </div> 
+            </Title>
+
+            <Accordian />
                 
         </Wrap>
 
@@ -301,7 +415,7 @@ h1{
 
 p{
 
-  padding: 50px 0;
+  padding: 50px 100px;
 
   line-height: 2.1rem;
   letter-spacing: 2.1px;
@@ -369,7 +483,7 @@ transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 `
 
 const Upper = styled.div`
-    width: 100%;
+    width: 39%;
     height: 65%;
     display: flex;
     align-items: center;
@@ -381,8 +495,6 @@ const Upper = styled.div`
 
     &:hover{
         cursor: pointer;
-
-
     }
 
     img{
@@ -407,7 +519,7 @@ const Down = styled.div`
 
     h1{
         color: black;
-        font-size: 16px;
+        font-size: 14px;
         margin: 5px 0;
         text-align: center;
         letter-spacing: 1.2px;
@@ -434,6 +546,7 @@ const Video = styled.div`
     width: 80%;
     height: 550px;
     margin: 100px 0;
+    padding-bottom: 100px;
     
     h1{
         color: var(--sec);
@@ -448,6 +561,27 @@ const Video = styled.div`
   }
 
 
+
+`
+
+const Title = styled.div`
+    
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(#fff, #fff) padding-box,linear-gradient(145deg, transparent 35%,var(--sec), var(--sec)) border-box;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    margin: 40px 0;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+
+
+    h1{
+        padding: 10px;
+        color: var(--sec);
+        margin-left: 20px;
+    }
 
 `
 

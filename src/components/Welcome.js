@@ -11,12 +11,13 @@ function Welcome() {
         </Left>
         <Right>
 
-
-            <LazyImage
-            src="./main.jpg"
+           <div>
+           <LazyImage
+            src="./main2.jpg"
             blurhash="LaI}q+W?_N-;%gRjRjxus.kCIoWA"
             alt="Welcome"
           />
+           </div>
         </Right>
     </Container>
   )
@@ -35,6 +36,7 @@ const Container = styled.div`
         flex-direction: column;
         height: 92vh;
         margin: 0;
+        padding-top: 30px;
       }
 `
 const Wrap = styled.div`
@@ -90,6 +92,11 @@ const Right = styled.div`
 
     @media only screen and (max-width: 1200px){
         width: 100%;
+      }
+
+      div{
+        width: 100%;
+        height: 100%;
       }
 
     img{

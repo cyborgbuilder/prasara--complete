@@ -31,6 +31,7 @@ const Container = styled.div`
     //background: url('https://www.casal.fr/assets/images/banniere/banniere-renseignements.jpg');
     background-size: cover;
     position: relative;
+    z-index: -1;
 
     @media only screen and (max-width: 1200px){
       height: 50vh;

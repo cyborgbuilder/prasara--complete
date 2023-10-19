@@ -8,11 +8,10 @@ function About() {
       <Head>
         <div></div>
         <LazyImage
-            src="https://lh3.googleusercontent.com/u/2/drive-viewer/AITFw-wGjlhrYfbQjtdJXbzM3eW_G7djGSncqVws7lRbPfOiYRtLIqmgntfPkhmN7_olcENzuYN1jW9Mh1rIfV3MSrt36vkI=w1920-h878"
+            src="./brands.png"
             blurhash="LPMQt}xvp_ay?^WBVYWBOYkCVrs:"
             alt="Welcome"
           />
-        <img src='' />
       </Head>
       <Body>
            <Header>
@@ -270,7 +269,7 @@ function About() {
 
             <Slot>
                 <Upper>
-                    <img className='logo_14' src='https://searchlogovector.com/wp-content/uploads/2020/03/gerry-weber-logo-vector.png' />
+                    <img className='logo_14' src='gerry.png' />
                 </Upper>
                 <Down>
                     <h1>Gerry Weber</h1>
@@ -353,7 +352,7 @@ function About() {
 
             <Slot>
                 <Upper>
-                    <img className='logo_30' src='https://searchlogovector.com/wp-content/uploads/2019/08/oshkosh-bgosh-logo-vector.png' />
+                    <img className='logo_30' src='osh.png' />
                 </Upper>
                 <Down>
                     <h1>Oshkosh B'gosh</h1>
@@ -584,7 +583,7 @@ transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 @media only screen and (max-width: 1200px){
     width: 40%;
     padding: 10px;
-    margin: 10px;
+    margin: 20px 10px;
     text-align: center;
     height: 180px;
   }
@@ -623,6 +622,11 @@ const Upper = styled.div`
     img{
         width: 100%;
         border-radius: 5px;
+
+        @media only screen and (max-width: 1200px){
+            width: 80%;
+
+          }
     }
     
     

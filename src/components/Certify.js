@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import LazyImage from './LazyImage'
 
 function Certify() {
   return (
@@ -12,40 +13,96 @@ CERTIFICATIONS</h1>
         </Left>
         <Right>
         <Slot>
-          <img src='./1.png' />
+        <LazyImage
+            src="./1.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+          {/* <img src='./1.png' /> */}
         </Slot>
         <Slot>
-        <img src='./2.png' />
+        <LazyImage
+            src="./2.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+        {/* <img src='./2.png' /> */}
         </Slot>
         <Slot>
-        <img src='./3.png' />
+        <LazyImage
+            src="./3.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+        {/* <img src='./3.png' /> */}
         </Slot>
         <Slot>
-        <img src='./4.png' />
+        <LazyImage
+            src="./4.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+        {/* <img src='./4.png' /> */}
         </Slot>
         <Slot>
-        <img src='./5.png' />
+        <LazyImage
+            src="./5.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+        {/* <img src='./5.png' /> */}
         </Slot>
         <Slot>
-        <img src='./6.png' />
+        <LazyImage
+            src="./6.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+        {/* <img src='./6.png' /> */}
         </Slot>
         <Slot>
-        <img src='./7.png' />
+        <LazyImage
+            src="./7.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+        {/* <img src='./7.png' /> */}
         </Slot>
         <Slot>
-        <img src='./12.png' />
+        <LazyImage
+            src="./12.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+        {/* <img src='./12.png' /> */}
         </Slot>
         <Slot>
-        <img src='./8.png' />
+        <LazyImage
+            src="./8.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+        {/* <img src='./8.png' /> */}
         </Slot>
         <Slot>
-        <img src='./9.png' />
+        <LazyImage
+            src="./9.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+        {/* <img src='./9.png' /> */}
         </Slot>
         <Slot>
+        
         <img src='./10.png' />
         </Slot>
         <Slot>
-        <img src='./11.png' />
+        <LazyImage
+            src="./11.png"
+            blurhash="L071l@_300IU00IU9FM{00D%%M-;"
+            alt=""
+          />
+        {/* <img src='./11.png' /> */}
         </Slot>
         </Right>
       </Wrap>
@@ -111,6 +168,7 @@ const Slot = styled.div`
     height: 200px;
     border-radius: 5px;
     margin: 30px 20px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,6 +178,7 @@ const Slot = styled.div`
         width 120px;
         height: 120px;
         margin: 10px 15px;
+        padding: 10px;
     }
 
     img{

@@ -6,12 +6,19 @@ import { FaHome } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
 import Blank from './Blank'
+import LazyImage from './LazyImage';
+
+
 function Contact() {
   return (
     <Container>
       <Head>
         <div></div>
-        <img src='https://lh3.googleusercontent.com/u/2/drive-viewer/AITFw-x99JCO5baS5RJ1ovnv_GzHxP64Abuit0JxLQg7-AZG-6ZaSkLE6gFieCI2l8Rpvf8XNwweOQvVLUsVc_-I6tpmhGPEkg=w1920-h878' />
+        <LazyImage
+            src="./contact.png"
+            blurhash="LEGlS6WB3Fovu6n%n$R*?uofIAjF"
+            alt=""
+          />
        
       </Head>
       <Body>

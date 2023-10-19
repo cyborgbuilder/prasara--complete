@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import LazyImage from './LazyImage';
 
 
 function Sustainability() {
@@ -15,11 +15,17 @@ function Sustainability() {
     accessibility: true,
     arrows: false
   };
+
+  const imgurl = './mirror.png';
   return (
     <Container>
       <Head>
         <div></div>
-        <img src='https://lh3.googleusercontent.com/u/2/drive-viewer/AITFw-yYCwoYPpRCq9Ad104oy9e8rrPPqaQ98Lw7eRFHNxc0Nmv5SF1h2_j1gmBDhz0zw9p1yvFL-wdnpP48dovHNjbQk2Kttw=w1920-h878' />
+        <LazyImage
+            src="./sus.png"
+            blurhash="LeL#FB00a$WB_4M{axof00WCofof"
+            alt="Welcome"
+          />
       </Head>
       <Body>
         <Wrap>
@@ -45,7 +51,7 @@ installed and put into operation the following,</p>
            <Boxes>
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                    <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Environmental impact measures software</p>
@@ -54,7 +60,8 @@ installed and put into operation the following,</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
+                    
                   </Up>
                   <Down>
                     <p>Exclusive use of ZDHC chemicals (zero discharge of hazardous chemicals)</p>
@@ -63,7 +70,7 @@ installed and put into operation the following,</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Solar Power</p>
@@ -72,7 +79,7 @@ installed and put into operation the following,</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Effluent Treatment Plant</p>
@@ -81,7 +88,7 @@ installed and put into operation the following,</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Energy efficient management system</p>
@@ -90,7 +97,7 @@ installed and put into operation the following,</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Water management system</p>
@@ -99,7 +106,7 @@ installed and put into operation the following,</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Mangrove plantation project (2021/2022), planted over 2000 mangrove trees</p>
@@ -129,7 +136,7 @@ objective, we have initiated the following,</p>
            <Boxes>
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Higher studies opportunities for prospective employees</p>
@@ -138,7 +145,7 @@ objective, we have initiated the following,</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Free (meals, uniforms, safety gear and transport) for the workforce</p>
@@ -147,7 +154,7 @@ objective, we have initiated the following,</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>In-house free medical facilities (Doctor and Nurse)</p>
@@ -156,7 +163,7 @@ objective, we have initiated the following,</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Financial incentives during periods of economic hardships</p>
@@ -189,7 +196,7 @@ such as</p>
            <Boxes>
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Donate books for children of the workforce</p>
@@ -198,7 +205,7 @@ such as</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Donations for local schools (Dankotuwa Balika girls school, Dhammisara College Nattandiya etc)</p>
@@ -207,7 +214,7 @@ such as</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Donations for universities (University of Ruhuna)</p>
@@ -216,7 +223,7 @@ such as</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Donations for clubs and societies </p>
@@ -225,7 +232,7 @@ such as</p>
 
                 <Box>
                   <Up>
-                    <img src='./mirror.png' />
+                  <img src={imgurl} />
                   </Up>
                   <Down>
                     <p>Donations for places of religious worship</p>
@@ -535,9 +542,7 @@ const Boxes = styled.div`
 const Box = styled.div`
   width: 200px;
   height: 180px;
-  background: #FEFCFF;
   border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   margin: 20px 30px;
 
   @media only screen and (max-width: 1200px){
