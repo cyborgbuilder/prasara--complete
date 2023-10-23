@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import SocialBooth from './components/SocialBooth';
 import Brands from './components/Brands'
 import ScrollToTop from './components/ScrollToTop';
+import PdfViewer from './components/PdfViewer';
 function App() {
   // let component
    // eslint-disable-next-line default-case

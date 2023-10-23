@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
 import LazyImage from './LazyImage';
-import Accordian   from './Accordian';
+import Vision from './Vision';
 function About() {
 
     const imgurl = './award.png'
@@ -320,7 +320,7 @@ that reflect our commitment to excellence.</p>
 
 
             <Video>
-                <h1>We are on youtube</h1>
+                <h1>We Are On Youtube</h1>
            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/X4FIgdIltGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
            </Video>
 
@@ -337,7 +337,7 @@ that reflect our commitment to excellence.</p>
                 </div> 
             </Title>
 
-            <Accordian />
+            <Vision />
                 
         </Wrap>
 
@@ -545,11 +545,10 @@ const Down = styled.div`
 const Video = styled.div`
     width: 80%;
     height: 550px;
-    margin: 100px 0;
-    padding-bottom: 100px;
+    margin-bottom: 200px ;
+    margin-top: 50px;
     
     h1{
-        color: var(--sec);
         margin: 50px 0;
         text-align: center;
     }
@@ -557,7 +556,8 @@ const Video = styled.div`
     @media only screen and (max-width: 1200px){
         width: 100%;
       height: 300px;
-      margin: 100px 0;
+      margin-top: 0px ;
+      margin-bottom: 150px;
   }
 
 
@@ -575,12 +575,19 @@ const Title = styled.div`
     border-radius: 16px;
     margin: 40px 0;
     box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
-
+    
+    @media only screen and (max-width: 1200px){
+        width: 95%;
+    }
 
     h1{
         padding: 10px;
         color: var(--sec);
         margin-left: 20px;
+
+        @media only screen and (max-width: 1200px){
+          font-size: 24px;
+      }
     }
 
 `
