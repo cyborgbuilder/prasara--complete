@@ -18,42 +18,60 @@ function Vision() {
 
         <Policies>
             <ul>
-            <div class="notification">
+           <a href='./p1.pdf'>
+           <div class="notification">
     <div class="notiglow"></div>
     <div class="notiborderglow"></div>
     <div class="notititle">Environmental Policy</div>
   </div>
+           </a>
 
+  <a href='./p4.pdf'>
   <div class="notification">
     <div class="notiglow"></div>
     <div class="notiborderglow"></div>
     <div class="notititle">Anti-Harassment and Non-Abusive Policy</div>
   </div>
+  </a>
 
+  <a href='./p3.pdf'>
   <div class="notification">
     <div class="notiglow"></div>
     <div class="notiborderglow"></div>
     <div class="notititle">Non Enforced Labour Policy</div>
   </div>
+  </a>
 
 
+  <a href='./p5.pdf'>
   <div class="notification">
     <div class="notiglow"></div>
     <div class="notiborderglow"></div>
     <div class="notititle">Social Accountability Policy</div>
   </div>
+  </a>
 
+  <a href='./p6.pdf'>
   <div class="notification">
     <div class="notiglow"></div>
     <div class="notiborderglow"></div>
     <div class="notititle">Non - Discrimination Policy</div>
   </div>
+  </a>
 
-  <a href='./sample.pdf' >
+  <a href='./p7.pdf' >
   <div class="notification">
     <div class="notiglow"></div>
     <div class="notiborderglow"></div>
     <div class="notititle">Quality Policy</div>
+  </div>
+  </a>
+
+  <a href='./p2.pdf' >
+  <div class="notification">
+    <div class="notiglow"></div>
+    <div class="notiborderglow"></div>
+    <div class="notititle">Health and Safety Policy</div>
   </div>
   </a>
 
